@@ -1,0 +1,24 @@
+{
+  "canisters": {
+    "rust": {
+      "candid": "src/rust/rust.did",
+      "package": "rust",
+      "type": "rust",
+      "declarations": {
+        "bindings": ["js", "ts", "did"],
+        "output": "src/rust/declarations"
+      }
+    },
+    "motoko": {
+      "main": "src/motoko/main.mo",
+      "type": "motoko",
+      "declarations": {
+        "bindings": ["js", "ts"],
+        "output": "src/motoko/declarations"
+      }
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1,
+  "dfx": "0.15.1"
+}
